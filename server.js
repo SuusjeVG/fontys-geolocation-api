@@ -3,7 +3,7 @@ import express from 'express';
 export  default function server(data) {
     const app = express()
     const port = 3000;
-    const host = 'http://i518778.hera.fontysict.net/fontyscampus-location-api/'; // localhost
+    const host = 'https://fontys-geolocation-api.onrender.com/'; // localhost
     
     // middleware headers
     app.use((req, res, next) => {
