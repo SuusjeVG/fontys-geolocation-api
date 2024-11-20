@@ -2,7 +2,7 @@ import express from 'express';
 
 export  default function server(data) {
     const app = express()
-    const port = 3000;
+    const port = process.env.PORT || 3000; 
     const host = 'https://fontys-geolocation-api.onrender.com/'; // localhost
     
     // middleware headers
