@@ -2,8 +2,8 @@ import express from 'express';
 
 export  default function server(data) {
     const app = express()
-    const port = process.env.PORT || 3000; 
-    const host = 'https://fontys-geolocation-api.onrender.com/'; // localhost
+    const port = process.env.PORT || 3000; // default port to listen
+    const host = 'https://fontys-geolocation-api.onrender.com/'; 
     
     // middleware headers
     app.use((req, res, next) => {
