@@ -15,7 +15,7 @@ De API is live beschikbaar op:
 
 ## Gebruik
 
-Je hoeft deze repository niet te clonen om gebruik te maken van de API. Voeg simpelweg de onderstaande code toe aan jouw project om de API te integreren.
+Je hoeft deze repository niet te clonen om gebruik te maken van de API. Deze repo is namelijk hoe ik mijn server en API gemaakt heb. Om er gebruik van te maken in jou project voeg Voeg simpelweg de onderstaande code toe aan jouw project.
 
 ### Locaties ophalen met Fetch
 ```javascript
@@ -26,3 +26,5 @@ fetch('https://fontys-geolocation-api.onrender.com/api/locations')
     // Gebruik de data hier in je project
   })
   .catch(error => console.error('Fout bij ophalen van data:', error));
+```
+
