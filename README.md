@@ -19,7 +19,7 @@ Je hoeft deze repository niet te clonen om gebruik te maken van de API. Deze rep
 
 ### Locaties ophalen met Fetch
 ```javascript
-fetch('https://fontys-geolocation-api.onrender.com/api/locations')
+fetch('https://https://fontys-geolocation-api.onrender.com/')
   .then(response => response.json())
   .then(data => {
     console.log('Locaties:', data);
