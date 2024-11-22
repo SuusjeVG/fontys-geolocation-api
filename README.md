@@ -15,7 +15,7 @@ De API is live beschikbaar op:
 
 ## Gebruik
 
-Je hoeft deze repository niet te clonen om gebruik te maken van de API. Deze repo is namelijk hoe ik mijn server en API gemaakt heb. Om er gebruik van te maken in jou project voeg Voeg simpelweg de onderstaande code toe aan jouw project.
+Je hoeft deze repository niet te clonen om gebruik te maken van de API. Deze repo is namelijk hoe ik mijn server en API gemaakt heb. Om er gebruik van te maken in jou project voeg simpelweg de onderstaande code toe aan jouw project.
 
 ### Locaties ophalen met Fetch
 ```javascript
